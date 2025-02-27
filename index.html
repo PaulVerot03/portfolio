@@ -20,24 +20,7 @@
         <header>
             <nav class="bg-white navbar navbar-expand-lg navbar-light shadow-none"> 
                 <div class="container"> <a class="align-items-center d-inline-flex fw-bold h4 mb-0 navbar-brand text-uppercase" href="#"> <span>Portfolio | Paul Verot</span></a> 
-                    <button class="navbar-toggler rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-2" aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
-                    </button>                     
-                    <div class="collapse navbar-collapse " id="navbarNavDropdown-2"> 
-                        <ul class="me-auto ms-auto navbar-nav"> 
-                            <li class="nav-item"> 
-</li>
-                            <li class="nav-item"> 
-</li>
-                            <li class="nav-item"> 
-</li>
-                            <li class="nav-item"> 
-</li>
-                            <li class="nav-item"> 
-</li>
-                            <li class="nav-item"> 
-</li>
-                        </ul>
-                        <div class="d-flex flex-wrap gap-2 py-1"> 
+                    
 </div>                         
                     </div>                    
                 </div>                 
@@ -48,7 +31,7 @@
                 <div class="container pb-5 pt-5 text-center">
                     <div class="align-items-center gy-4 justify-content-center row">
                         <div class="col-md-10 col-xl-7">
-                            <img src="assets/tete.png" width="800" height="800" class="bg-white img-fluid mb-4 p-2 rounded-circle shadow w-50">
+                            <img src="assets/tete.png" max-width="800" height=auto class="bg-white img-fluid mb-4 p-2 rounded-circle shadow w-50">
                             <h1 class="display-5 fw-bold mb-3 text-dark">Paul Verot</h1>
                             <p class="mb-4 pe-sm-5 ps-sm-5">Étudiant en informatique à l'Université d'Évry-Val-d&apos;Essonne en troisième année d'Administration Système et Réseaux</p>
                             <div class="d-inline-flex flex-wrap gap-2"> 
@@ -64,7 +47,7 @@
                 <div class="container pb-5 pt-5"> 
                     <div class="align-items-center gy-4 row ">
                         <div class="col-lg-4">
-                            <img src="assets/corp.png" class="img-fluid rounded-1 shadow-sm w-100" alt="..." width="600" height="650">
+                            <img src="assets/corp.png" class="img-fluid rounded-1 shadow-sm w-100" alt="..." max-width="600" height: auto>
                         </div>
                         <div class="col-lg-8">
                             <h3 class="fw-bold h1 mb-3 text-capitalize text-primary text">a propos de moi</h3>
@@ -174,7 +157,7 @@
                             <div class="col-md-4"> 
                                 <div class="bg-light p-4 rounded-1 shadow-sm">
                                     <h2 class="display-7 fw-bold text-primary">Photographie</h2>
-                                    <img src="assets/etang.jpg" alt="etang" width="350" height="350" style="margin-left: 1px;" class="rounded">
+                                    <img src="assets/etang.jpg" alt="etang" style="max-width: 300px"height: auto  style="margin-left: 1px;" class="rounded">
                                     <p>J'aime photographier la nature et les structures délabrées, je sors souvent le week-end pour faire des photo avec un ami.</p>
                                 </div>                                     
                             </div>
@@ -245,7 +228,7 @@
                                 <p class="small gray">sept 2024 - dec 2024</p>
                                 <h5 class="text-capitalize">Tomographie</h5>
                                 <p>Programmation d'un outil pour analyser les données produites par une sonde tomographique. Les contraintes du projets était un code contenu dans 300 lignes et un accent sur l'optimisation en raison de la taille des fichier bruts à analyser. Pour ce projet, j'ai utilisé Pandas pour les dataframes et Matplotlib pour le rendu des graphiques.</p>
-                                <img src="assets/truncated.png" alt="plot" width="500" height="400">
+                                <img src="assets/truncated.png" alt="plot" style="max-width: 500px" height: auto  >
                                 <p>Exemple d'un nuage de point pour un échantillon d'un million de points. On peut facilement voir les zones les moins denses.</p>
                                 <a href="https://codeberg.org/paulverot/TomograPy">Lien vers le projet</a>
                             </div>
@@ -276,7 +259,7 @@
                                 <p class="small gray">oct 2024</p>
                                 <h5 class="text-capitalize">Authentication et PAM</h5>
                                 <p>Mise en place d'une double authentication pour les connexions SSH sur un système Linux à l'aide de Google Authenticator dans le but de se familiariser avec PAM</p>
-                                <img src="assets/authenticator.png" alt="plot" width="500" height="400">
+                                <img src="assets/authenticator.png" alt="plot" style="max-width:500px" height: auto>
                                 <p>google-authenticator sur Debian</p>
                             </div>
                             </a>
@@ -310,7 +293,7 @@
                                 <p class="small gray">nov 2024</p>
                                 <h5 class="text-capitalize">DNSSEC DoT/DoH</h5>
                                 <p>Mise en place d'un serveur DNS récursif utilisant le DNSSEC avec Unbound dans le but d'étudier les protocoles DNS et la sécurisation des transmissions. Mise en place d'un serveur DNS qui communique en DoT avec les serveurs de la FDN.</p>
-                                <img src="assets/dot.png" alt="dot" width="250" height="250" style="margin-left: 150px;">
+                                <img src="assets/dot.png" alt="dot" style="max-width: 250px;"  height: auto   style="margin-left: 150px;">
                             </div>
                             </a>
                         </div>
@@ -332,7 +315,7 @@
                                     <li>planification des groupes</li>
                                     <li>Utiliser et planifier les stratégies de groupe</li>
                                 </ul>
-                                <img src="assets/ad.png" alt="plot" width="250" height="250" style="margin-left:150px;">
+                                <img src="assets/ad.png" alt="plot" style="max-width: 250px;" height: auto   style="margin-left:150px;">
                             </div>
                             </a>
                         </div>
@@ -350,7 +333,7 @@
                                     <li>Mettre en place un routeur-NAT avec netfilter</li>
                                     <li>comprendre les interactions entre modifications réalisées sur les paquets par la traduction d'adresses</li>
                                 </ul>
-                                <img src="assets/nat.png" alt="plot" width="250" height="250" style="margin-left:150px;">
+                                <img src="assets/nat.png" alt="plot"style="max-width: 250px;" height: auto  style="margin-left:150px;">
                             </div>
                             </a>
                         </div>
@@ -368,7 +351,7 @@
                                     <li>Mettre en place des règles en fonctions des types de paquets, des destination et des sources</li>
                                     <li>comprendre les interactions entre modifications réalisées sur les paquets par la traduction d'adresses</li>
                                 </ul>
-                                <img src="assets/nat.png" alt="plot" width="250" height="250" style="margin-left:150px;">
+                                <img src="assets/nat.png" alt="plot" style="max-width: 250px;" height: auto   style="margin-left:150px;">
                             </div>
                             </a>
                         </div>
@@ -386,7 +369,7 @@
                                     <li>comprendre le fonctionnement de l'attaque et les mesures de sécurité à prendre en conséquent</li>
                                 </ul>
                                 <p>J'ai testé plusieurs attaques depuis la machine Pirate (ICMP Redirect, ARP Poisoning...) pour comprendre comment elles fonctionnaient, comment repérer leur comportement et s'en protéger </p>
-                                <img src="assets/ICMP.png" alt="plot" width="250" height="250" style="margin-left:150px;">
+                                <img src="assets/ICMP.png" alt="plot" style="max-width: 250px;" height: auto   style="margin-left:150px;">
                             </div>
                             </a>
                         </div>
