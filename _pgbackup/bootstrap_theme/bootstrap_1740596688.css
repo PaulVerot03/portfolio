@@ -778,13 +778,11 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
-  align-items: flex-start;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -12633,14 +12631,4 @@ body, html {
 
 .carousel-indicators > li[data-bs-target]::marker {
   font-size: 0;
-}
-
-.gray{
-  color: rgb(122, 122, 122);
-}
-
-.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
 }
